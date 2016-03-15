@@ -26,7 +26,7 @@ MEMORY
   dport0_0_seg :                      	org = 0x3FF00000, len = 0x10
   dram0_0_seg :                       	org = 0x3FFE8000, len = 0x18000
   iram1_0_seg :                       	org = 0x40100000, len = 0x8000
-  irom0_0_seg :                       	org = 0x40220000, len = 0xBC000 /* for 1024 kB flash. Also write esp_init_data_default.bin -> 0xFC000 and blank.bin -> 0xFE000 */
+  irom0_0_seg :                       	org = 0x40220000, len = 0xDC000 /* for 1 MB flash. Also write esp_init_data_default.bin -> 0xFC000 and blank.bin -> 0xFE000 */
 }
 
 INCLUDE "../ld/eagle.app.v6.common.ld"
