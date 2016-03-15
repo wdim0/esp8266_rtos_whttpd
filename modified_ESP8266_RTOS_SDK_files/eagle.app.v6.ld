@@ -6,7 +6,8 @@
 /* ^      ^                              ^                          ^     ^                            */
 /* |_flash.bin start(0x0000)             |_irom0text.bin start(0x20000)   |                            */
 /*        |_flash.bin end                                           |_irom0text.bin end                */
-/*                                                                        |_system param area(0x7c000) - last 16 kB */
+/*                                                                        |_system param area(0x7c000) */
+/*                                                                         (last 4 sectors (16 kB))    */
 
 /* NOTICE: */ 
 /* 1. You can change irom0 org, but MUST make sure irom0text.bin start not overlap flash.bin end.   */
