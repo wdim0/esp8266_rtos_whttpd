@@ -1,8 +1,8 @@
-# Introduction
+# HTTP server for ESP8266
 
 HTTP server written from scratch for ESP8266 (but not just for it with some decent modifications) running on FreeRTOS (tested with ESP8266_RTOS_SDK 1.4.0)
 
-# Main features
+## Main features
 
 Safe FOTA upgrade (password protected, MD5 control checksum of binary to assure integrity)
 
