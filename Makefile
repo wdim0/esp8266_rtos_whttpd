@@ -5,12 +5,12 @@
 # (c) by CHERTS <sleuthhound@gmail.com>
 #
 # Modified by Martin Winkelhofer
-# W-Dimension / wdim / maarty.w@gmail.com
+# W-Dimension / wdim / wdim0 / maarty.w@gmail.com
 # - generation of flash_slot1.bin / flash_slot2.bin files and related md5 files
 # - new flashinit (clear entire flash, flash FOTA bootloader v1.5 and ESP init) 
 # - baud 921600, COM3
 # - for ESP module with 1 MB flash memory
-# - wfofgen section added (specific for this project - generation of wfof/wfof_data.h (data of files to be served by WHTTPD))
+# - wfofgen section added (specific for this project - generation of wfof/wfof_*.h (data of files to be served by WHTTPD))
 #   (run first before "make all" or do "make rebuild")
 #
 #############################################################
@@ -212,7 +212,7 @@ endef
 .PHONY: wfofgen all checkdirs flash flash_slot1 flash_slot2 flashinit rebuild clean
 
 wfofgen:
-	wfof/generator/wfof_gen.exe wfof/content wfof/wfof_data.h
+	wfof/generator/wfof_gen.exe wfof/content 4 wfof/wfof_data.h wfof/wfof_idxs.h
 	touch wfof/wfof.c
 
 all: checkdirs $(TARGET_OUT_SLOT1) $(TARGET_OUT_SLOT2)

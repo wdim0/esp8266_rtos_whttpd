@@ -1,6 +1,6 @@
 /*
  * Created by Martin Winkelhofer 02,03/2016
- * W-Dimension / wdim / maarty.w@gmail.com
+ * W-Dimension / wdim / wdim0 / maarty.w@gmail.com
  *          __   __  __          __
  *  _    __/ /  / /_/ /____  ___/ /
  * | |/|/ / _ \/ __/ __/ _ \/ _  /
@@ -44,7 +44,7 @@
 #define WHTTPD_MAINLOOP_DELAY				(10 / portTICK_RATE_MS) //([ms] / portTICK_RATE_MS)
 #define WHTTPD_SLOTLOOP_DELAY				(5 / portTICK_RATE_MS) //([ms] / portTICK_RATE_MS)
 #define WHTTPD_MAINLOOP_CONN_IDLE_TIMEOUT	400 //[x WHTTPD_MAINLOOP_DELAY]
-#define WHTTPD_VER							"WHTTPD/1.0 (RTOS on ESP8266)"
+#define WHTTPD_VER							"WHTTPD/1.01 (RTOS on ESP8266)"
 #define WHTTPD_RCA_OUTPUTBUF_MALLOC_STEP	32
 #define WHTTPD_DEFAULT_PAGE					"index.html"
 //

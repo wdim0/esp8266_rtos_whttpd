@@ -1,6 +1,6 @@
 /*
  * Created by Martin Winkelhofer 02,03/2016
- * W-Dimension / wdim / maarty.w@gmail.com
+ * W-Dimension / wdim / wdim0 / maarty.w@gmail.com
  */
 
 //#include <freertos/FreeRTOS.h>
