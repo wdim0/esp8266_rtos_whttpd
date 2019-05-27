@@ -1,6 +1,6 @@
 /*
  * Created by Martin Winkelhofer 02,03/2016
- * W-Dimension / wdim / wdim0 / maarty.w@gmail.com
+ * W-Dimension / wdim / wdim0 / winkelhofer.m@gmail.com / https://github.com/wdim0
  *          __   __  __          __
  *  _    __/ /  / /_/ /____  ___/ /
  * | |/|/ / _ \/ __/ __/ _ \/ _  /

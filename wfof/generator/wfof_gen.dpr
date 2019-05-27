@@ -4,7 +4,7 @@ program wfof_gen;
 
 {
  * Created by Martin Winkelhofer 02,03/2016
- * W-Dimension / wdim / wdim0 / maarty.w@gmail.com
+ * W-Dimension / wdim / wdim0 / winkelhofer.m@gmail.com / https://github.com/wdim0
  *    _____ __          ____         ______         __
  *   / __(_) /__ ___   / __ \___    / __/ /__ ____ / /
  *  / _// / / -_|_-<  / /_/ / _ \  / _// / _ `(_-</ _ \
@@ -108,7 +108,7 @@ end;
 
 begin
   Writeln(Output,APP_NAME+', created by Martin Winkelhofer 02,03/2016');
-  Writeln(Output,'W-Dimension / wdim / wdim0 / maarty.w@gmail.com');
+  Writeln(Output,'W-Dimension / wdim / wdim0 / winkelhofer.m@gmail.com / https://github.com/wdim0');
   SetLength(OutBuf,0);
   SetLength(Files,0);
   if(ParamCount<4) then begin

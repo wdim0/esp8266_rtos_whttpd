@@ -5,7 +5,7 @@
 # (c) by CHERTS <sleuthhound@gmail.com>
 #
 # Modified by Martin Winkelhofer
-# W-Dimension / wdim / wdim0 / maarty.w@gmail.com
+# W-Dimension / wdim / wdim0 / winkelhofer.m@gmail.com / https://github.com/wdim0
 # - generation of flash_slot1.bin / flash_slot2.bin files and related md5 files
 # - new flashinit (clear entire flash, flash FOTA bootloader v1.5 and ESP init) 
 # - baud 921600, COM3
